@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'react-native-elements'
-import { StyleSheet, Text, View , ScrollView, Image} from 'react-native'
-import Loading from '../../components/Loading'
+import { StyleSheet, Text, ScrollView, Image} from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
 export default function UserGuest() {
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         fontSize: 19,
         marginVertical: 10,
-        textAlign: "center",
+        textAlign: "center"
     },
     description : {
         textAlign: "justify",
@@ -51,7 +50,7 @@ const styles = StyleSheet.create({
         color: "#a65273"
     },
     button : {
-       backgroundColor: "#442484" 
+       backgroundColor: "#442484" ,
     }
     
 })
